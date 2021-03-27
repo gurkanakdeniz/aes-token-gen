@@ -1,5 +1,16 @@
 # AES Token Generator
 
+***Use***
+
+```
+Token token = new Token(SECRET_KEY);
+
+String tokenString = token.token();
+String encryptedString = token.encrypt();
+```
+
+
+
 ***Sample***
 
 ```
@@ -13,3 +24,7 @@ DEC   : MDMyNzIwMjExNzM4MTA0YTg5MjM4YjdkNjY0ZjUzYTYyM2IyMzIzMzU5YTk3MjpGOTYzWEFQ
 MOST  : 032720211738104a89238b7d664f53a623b2323359a972
 LEAST : F963XAPM
 ```
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
