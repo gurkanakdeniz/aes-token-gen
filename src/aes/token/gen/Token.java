@@ -21,9 +21,8 @@ public class Token {
     private String token;
     private String encryptedToken;
 
-    public Token() {
-        super();
-        this.secretKey = SECRET_KEY;
+    public Token() throws Exception {
+        this(SECRET_KEY);
     }
 
     public Token(String secretKey) throws Exception {
